@@ -21,6 +21,10 @@ public class AddressBook {
         return null;
     }
 
+    public String getName(int index){
+        return this.buddies.get(index).getName();
+    }
+
     //Main class
     public static void main(String [] args){
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", 613);
